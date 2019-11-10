@@ -7,8 +7,8 @@ M82 ;set extruder to absolute mode
 M107 ;start with the fan off
 M190 S{material_bed_temperature_layer_0} ; set bed temp and wait
 BED_TILT_CALIBRATE ;perform auto bed leveling
-M109 T0 S{material_print_temperature_layer_0} ; set extruder temp and wait
 G0 X0 Y0 F7200 ;move off the bed at 45mms
+M109 T0 S{material_print_temperature_layer_0} ; set extruder temp and wait
 G1 Z15.0 F9000 ;move the platform down 15mm
 G92 E0 ;zero the extruded length
 G1 X100 E15 F600 ; move X-carriage 100mm while purging 15mm of filament
