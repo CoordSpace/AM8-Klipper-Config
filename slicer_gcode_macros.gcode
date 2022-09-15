@@ -41,6 +41,6 @@ G91 ; set axes to relative
 G0 Z5 F9000 ; move the hotend up, off the part
 G90 ; set axes back to absolute
 G0 X0 F7200 ; move hotend out of the way
-G0 Y200 F7200 ; put the part where its accessible
+G0 Y150 F7200 ; put the part where its accessible
 M84 ; turn off steppers
 
