@@ -1,8 +1,8 @@
 This klipper configuration is meant for an [AM8](https://www.thingiverse.com/thing:2263216) printer with the following additions:
 
-* [Titan Extruder Clone](https://www.amazon.com/dp/B086ZGTGRB?ref_=cm_sw_r_cp_ud_dp_FZWPX4BG5PGCY1FV46P6)
+* [BMG Extruder Clone](https://a.co/d/hzhGpzq)
 
-* [Titan + V6 X Carriage](https://www.thingiverse.com/thing:3197144/)
+* [Modular X-carriage](https://www.thingiverse.com/thing:2599692)
 
 * [X-Axis Belt Carriage Attachment](https://www.thingiverse.com/thing:2744056)
 
