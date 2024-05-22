@@ -7,7 +7,7 @@ M82 ;set extruder to absolute mode
 M107 ;start with the fan off
 M190 S{material_bed_temperature_layer_0} ; set bed temp and wait
 G28 ;auto-home the axes
-BED_MESH_CALIBRATE ;perform auto bed leveling
+BED_MESH_CALIBRATE ADAPTIVE=1 ;perform auto bed leveling
 G0 X0 Y0 F7200 ;move off the bed at 45mms
 M109 T0 S{material_print_temperature_layer_0} ; set extruder temp and wait
 G1 Z15.0 F9000 ;move the platform down 15mm
